@@ -4,7 +4,9 @@
   "description": "A number classification API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js",
+    "dev": "node api/server.js",
+    "build": "npm install"
   },
   "author": "Kele Ebiri",
   "license": "ISC",
